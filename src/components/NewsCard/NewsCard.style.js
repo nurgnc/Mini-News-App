@@ -20,4 +20,9 @@ export default StyleSheet.create({
     description: {
         marginTop: 5,
     },
+    author: {
+        fontStyle: 'italic',
+        textAlign: 'right',
+        margin : 5,
+    }
 })

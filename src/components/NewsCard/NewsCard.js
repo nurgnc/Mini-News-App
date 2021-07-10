@@ -9,6 +9,7 @@ const NewsCard = ({ news }) => {
             <View style={styles.innerContainer}>
                 <Text style={styles.title}>{news.title}</Text>
                 <Text style={styles.description}>{news.description}</Text>
+                <Text style={styles.author}>{news.author}</Text>
             </View>
 
         </View>
